@@ -1,0 +1,81 @@
+.container{
+  display: flex;
+  flex-direction: column
+}
+.head-image{
+  width: 100%;
+}
+.audio{
+  position: absolute;
+  width: 90rpx;
+  height: 90rpx;
+  left:50%;
+  margin-left: -45rpx;
+  opacity: 0.6;
+  top: 180rpx;
+}
+.author-date{
+  margin-top: 20rpx;
+  flex-direction:row;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+.avatar{
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+}
+.author{
+  color: #666;
+  font-size:30rpx;
+  margin-left:20rpx;
+}
+.const-text{
+  color: #666;
+  font-size:30rpx;
+  margin-left:20rpx;
+}
+.date{
+  color: #666;
+  font-size:30rpx;
+  margin-left:20rpx;
+}
+.title{
+  margin-left: 40rpx;
+  font-size: 36rpx;
+  font-weight: 700;
+  color: #4b556c;
+  letter-spacing: 2px;
+  margin-top: 30rpx;
+}
+.tool{
+  margin-top: 20rpx;
+}
+.circle-img{
+  float: right;
+  margin-right: 40rpx;
+  vertical-align: middle;
+}
+.circle-img image{
+  width: 90rpx;
+  height:90rpx;
+}
+.share-img{
+  margin-left: 30rpx;
+}
+.horizon{
+  background-color: #e5e5e5;
+  height: 1px;
+  vertical-align: middle;
+  position: relative;
+  top:46rpx;
+  z-index: -99;
+  width: 660rpx;
+  margin: 0 auto;
+}
+.detail{
+  color: #666;
+  margin:20rpx 30rpx;
+  line-height: 44rpx;
+  letter-spacing: 2px;
+}
